@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen {
+  border: 2px solid black;
+  position: absolute;
+  width: 850px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen-1 h1 {
+  font-size: 64px;
+  margin-bottom: 50px;
+}
+
+.screen-1 h4 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.form input {
+  padding: 10px 15px;
+  outline: none;
+  font-size: 20px;
+}
+
+.form button {
+  padding: 12px 15px;
+  font-size: 20px;
+  border: none;
+  color: white;
+  background-color: black;
+  margin-left: -6px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0px 40px;
+}
+.header h1 {
+  font-weight: 500;
+  font-size: 32px;
+}
+.header h3 {
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.screen-2 h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  padding: 10px;
+  gap: 20px;
+}
+.left h3 {
+  font-size: 38px;
+  text-decoration: underline;
+}
+.left .answer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.left .answer p {
+  font-size: 60px;
+  font-weight: 300;
+  padding: 0;
+}
+.left .answer input {
+  font-size: 60px;
+  border: 2px solid black;
+  width: 180px;
+  height: 120px;
+  padding: 10px;
+}
+
+.header .score-container {
+  font-size: 30px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10px 40px 10px 10px;
+}
+.right h4 {
+  font-size: 32px;
+  text-decoration: underline;
+}
+.right h3 {
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.score-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=main.css.map */

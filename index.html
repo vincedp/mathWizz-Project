@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="src/assets/icon/favicon2.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/main.css" />
+    <title>Math Wizz</title>
+  </head>
+  <body>
+    <div class="screen screen-1 show">
+      <h1>Math Wizz</h1>
+      <h4>Welcome to the math wizz game.</h4>
+      <h4>Let's test your math skills! 😀</h4>
+      <br />
+      <br />
+      <h4>You'll be given random math questions that you'll have to answer.</h4>
+      <h4>Level changes when you reach the score of: 25, 50, 75...</h4>
+      <br />
+      <br />
+      <h4>Please enter your username to start</h4>
+      <br />
+      <div class="form">
+        <input class="user-input" type="text" />
+        <button class="input-btn">Submit</button>
+      </div>
+    </div>
+    <div class="screen screen-2 hide">
+      <div class="header">
+        <h1 class="score-container">Score: <span class="score">0</span></h1>
+        <h3>Hello, <span class="username"></span></h3>
+      </div>
+      <h1>Math Wizz</h1>
+      <div class="content">
+        <div class="left">
+          <h3>Calculate:</h3>
+          <div class="answer">
+            <p class="question">4+7 =</p>
+            <input class="useranswer" type="number" />
+          </div>
+        </div>
+        <div class="right">
+          <h4>Leaderboard</h4>
+          <div class="score-item">
+            <h3>Modesta Zulauf</h3>
+            <h3>114</h3>
+          </div>
+          <div class="score-item">
+            <h3>Colten Langosh</h3>
+            <h3>98</h3>
+          </div>
+          <div class="score-item">
+            <h3>Bridgette Altenwerth</h3>
+            <h3>93</h3>
+          </div>
+          <div class="score-item">
+            <h3>Guiseppe Ullrich</h3>
+            <h3>85</h3>
+          </div>
+          <div class="score-item">
+            <h3>Molly Jast</h3>
+            <h3>76</h3>
+          </div>
+          <div class="score-item">
+            <h3>Alan Langworth</h3>
+            <h3>69</h3>
+          </div>
+          <div class="score-item">
+            <h3>Brant Reynolds</h3>
+            <h3>53</h3>
+          </div>
+          <div class="score-item">
+            <h3>Geoffrey Swaniawski</h3>
+            <h3>32</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
